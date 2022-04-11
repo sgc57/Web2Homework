@@ -297,6 +297,14 @@
       "oAP" : "\/dev\/content\/hero-2.html",
       "oF" : 0
     },
+    "\/dev\/content\/news.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/news.html",
+      "oF" : 0
+    },
     "\/dev\/content\/search.kit" : {
       "cB" : 0,
       "ft" : 2048,
