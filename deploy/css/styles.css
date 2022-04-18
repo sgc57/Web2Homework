@@ -309,6 +309,13 @@ template {
 /* =============
     Base
 ============= */
+.css-grid-global {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header ."; }
+  .css-grid-global > div {
+    grid-area: header; }
+
 /* =============
     Typography
 ============= */
@@ -337,8 +344,23 @@ textarea {
     Header
 ============= */
 header {
+  background-color: #05404F;
   font-size: rem-calc(20); }
 
 /* =============
     Footer
 ============= */
+/* =============
+    Heroes
+============= */
+.heroes img {
+  width: 100%; }
+
+.heroes li {
+  list-style-type: none; }
+
+/* =============
+    Heroes
+============= */
+li {
+  list-style-type: none; }
