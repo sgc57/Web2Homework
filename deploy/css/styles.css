@@ -377,3 +377,7 @@ footer {
     list-style-type: none; }
     .cards ul li img {
       width: 100%; }
+
+section div .circle-card {
+  display: grid;
+  grid-template-columns: 65% auto; }
