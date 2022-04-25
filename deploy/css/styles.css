@@ -352,6 +352,9 @@ header {
 ============= */
 footer {
   background-color: #05404F; }
+  footer div #locations section section {
+    display: grid;
+    grid-template-columns: 10% auto; }
 
 /* =============
     Heroes
