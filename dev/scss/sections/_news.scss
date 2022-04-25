@@ -1,7 +1,14 @@
 /* =============
     Heroes
 ============= */
-
-li{
-    list-style-type: none;
+.cards{
+    ul{
+        padding-left: 0%;
+        li{
+            list-style-type: none;
+            img{
+                width: 100%;
+            }
+        }
+    }
 }

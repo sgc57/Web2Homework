@@ -359,11 +359,18 @@ footer {
 .heroes img {
   width: 100%; }
 
-.heroes li {
-  list-style-type: none; }
+.heroes ul {
+  padding-left: 0%; }
+  .heroes ul li {
+    list-style-type: none;
+    padding-left: 0%; }
 
 /* =============
     Heroes
 ============= */
-li {
-  list-style-type: none; }
+.cards ul {
+  padding-left: 0%; }
+  .cards ul li {
+    list-style-type: none; }
+    .cards ul li img {
+      width: 100%; }
