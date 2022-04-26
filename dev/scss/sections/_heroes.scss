@@ -12,14 +12,29 @@
         li {
             list-style-type: none;
             padding-left: 0%;
+
+            @include md{
+                float: left;
+                display: grid;
+                grid-template-columns: 50% 50%;
+            }
         }
     }
-   
+
+    
+
 
 }
 
-section{
-    @include md {
-        background-color: red;
+section {
+    section {
+        #hero-boxes {
+
+            @include md {
+                display: grid;
+                grid-template-columns: 40% auto;
+            }
+
+        }
     }
 }

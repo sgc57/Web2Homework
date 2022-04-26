@@ -1,8 +1,20 @@
 section{
     div{
+        #upper-cards{
+
         .circle-card{
                 display: grid;
                 grid-template-columns: 65% auto;
         }
+        @include md{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            
+        }
+    }
+        
     }
 }
+
+
+    
