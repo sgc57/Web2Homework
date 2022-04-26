@@ -373,15 +373,16 @@ footer {
   .heroes ul li {
     list-style-type: none;
     padding-left: 0%; }
-    @media (min-width: 768px) {
-      .heroes ul li {
-        float: left;
-        display: grid;
-        grid-template-columns: 50% 50%; } }
+
 @media (min-width: 768px) {
   section section #hero-boxes {
     display: grid;
     grid-template-columns: 40% auto; } }
+
+@media (min-width: 1024px) {
+  section section #hero-boxes {
+    display: grid;
+    grid-template-columns: 50% 50%; } }
 
 /* =============
     Heroes
@@ -392,6 +393,13 @@ footer {
     list-style-type: none; }
     .cards ul li img {
       width: 100%; }
+
+@media (min-width: 768px) {
+  #news ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: repeat(3, 433px);
+    gap: 16px; } }
 
 section div #upper-cards .circle-card {
   display: grid;

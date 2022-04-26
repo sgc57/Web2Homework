@@ -12,3 +12,14 @@
         }
     }
 }
+
+#news{
+    ul{
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        grid-template-rows: repeat(3, 433px);
+        gap: 16px;
+        }
+    }
+}
