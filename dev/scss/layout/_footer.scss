@@ -6,6 +6,9 @@ footer {
     background-color: #05404F;
     div {
         #locations {
+            @include md{
+                float: left;
+            }
             section {
                 section {
                     display: grid;
@@ -13,5 +16,16 @@ footer {
                 }
             }
         }
+        #newsletter{
+            @include md{
+                float: right;
+            }
+        }
+        #follow-us{
+            @include md{
+                float: right;
+            }
+        }
     }
 }
+
