@@ -1,6 +1,12 @@
 /* =============
     Variables
 ============= */
+/* =============
+    Mixins
+============= */
+@use "sass:math";
+/* ---------------- Font Sizing ---------------- */
+/* ---------------- Media Queries ---------------- */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -345,7 +351,7 @@ textarea {
 ============= */
 header {
   background-color: #05404F;
-  font-size: rem-calc(20); }
+  font-size: 20; }
 
 /* =============
     Footer
@@ -367,6 +373,10 @@ footer {
   .heroes ul li {
     list-style-type: none;
     padding-left: 0%; }
+
+@media (min-width: 768px) {
+  section {
+    background-color: red; } }
 
 /* =============
     Heroes
