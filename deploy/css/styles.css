@@ -463,7 +463,21 @@ section div #upper-cards .circle-card {
   display: grid;
   grid-template-columns: 65% auto; }
 
-@media (min-width: 768px) {
-  section div #upper-cards {
-    display: grid;
-    grid-template-columns: 50% 50%; } }
+#upper-cards {
+  display: grid;
+  gap: 24px; }
+  @media (min-width: 768px) {
+    #upper-cards {
+      grid-template-columns: 50% auto; } }
+  @media (min-width: 1440px) {
+    #upper-cards {
+      grid-template-columns: auto 720px 720px auto;
+      grid-template-areas: ". adopt vet ."; } }
+  @media (min-width: 1440px) {
+    #upper-cards #adopt {
+      grid-area: adopt; } }
+  @media (min-width: 1440px) {
+    #upper-cards #vet {
+      grid-area: vet; } }
+  #upper-cards .circle-card {
+    background-color: #E8ECED; }

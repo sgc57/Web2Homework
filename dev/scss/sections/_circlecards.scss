@@ -1,20 +1,44 @@
-section{
-    div{
-        #upper-cards{
+section {
+    div {
+        #upper-cards {
 
-        .circle-card{
+            .circle-card {
                 display: grid;
                 grid-template-columns: 65% auto;
+            }
+
         }
-        @include md{
-            display: grid;
-            grid-template-columns: 50% 50%;
-            
-        }
-    }
-        
+
     }
 }
 
+#upper-cards {
 
-    
+    display: grid;
+    gap: 24px;
+
+    @include md {
+        grid-template-columns: 50% auto;
+    }
+
+    @include xxl {
+        grid-template-columns: auto 720px 720px auto;
+        grid-template-areas: ". adopt vet .";
+    }
+
+    #adopt {
+        @include xxl {
+            grid-area: adopt;
+        }
+    }
+
+    #vet {
+        @include xxl {
+            grid-area: vet;
+        }
+    }
+
+    .circle-card {
+        background-color: #E8ECED;
+    }
+}
