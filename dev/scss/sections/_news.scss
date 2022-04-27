@@ -5,6 +5,7 @@
     ul{
         padding-left: 0%;
         li{
+            background-color: #E8ECED;
             list-style-type: none;
             img{
                 width: 100%;
@@ -14,16 +15,72 @@
 }
 
 #news{
+
+    @include md{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". news .";
+    }
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
     ul{
-        @include md{
-            display: grid;
-            grid-template-columns: 50% auto;
-        grid-template-rows: repeat(3, 433px);
+        display: grid;
         gap: 16px;
-        img{
-            width: 360px;
-           
+
+        @include md{
+            grid-area: news;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-areas: 
+            "c1 c1 c2 c2"
+            "c3 c3 c4 c4"
+            ". c5 c5 .";
         }
+
+        @include lg{
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-areas: 
+            "c1 c1 c2 c2 c3 c3"
+            ". c4 c4 c5 c5 .";
+        }
+
+        #card1{
+            @include md{
+                grid-area: c1;
+            }
+        }
+
+        #card2{
+            @include md{
+                grid-area: c2;
+            }
+        }
+
+        #card3{
+            @include md{
+                grid-area: c3;
+            }
+        }
+
+        #card4{
+            @include md{
+                grid-area: c4;
+            }
+        }
+
+        #card5{
+            @include md{
+                grid-area: c5;
+            }
+        }
+
+
+        li{
+            img{
+                width: 100%;
+            }
         }
     }
 }

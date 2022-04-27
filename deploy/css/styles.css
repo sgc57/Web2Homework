@@ -446,18 +446,50 @@ footer {
 .cards ul {
   padding-left: 0%; }
   .cards ul li {
+    background-color: #E8ECED;
     list-style-type: none; }
     .cards ul li img {
       width: 100%; }
 
 @media (min-width: 768px) {
-  #news ul {
+  #news {
     display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-rows: repeat(3, 433px);
-    gap: 16px; }
-    #news ul img {
-      width: 360px; } }
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". news ."; } }
+
+@media (min-width: 1440px) {
+  #news {
+    grid-template-columns: auto 1440px auto; } }
+
+#news ul {
+  display: grid;
+  gap: 16px; }
+  @media (min-width: 768px) {
+    #news ul {
+      grid-area: news;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-areas: "c1 c1 c2 c2" "c3 c3 c4 c4" ". c5 c5 ."; } }
+  @media (min-width: 1024px) {
+    #news ul {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-areas: "c1 c1 c2 c2 c3 c3" ". c4 c4 c5 c5 ."; } }
+  @media (min-width: 768px) {
+    #news ul #card1 {
+      grid-area: c1; } }
+  @media (min-width: 768px) {
+    #news ul #card2 {
+      grid-area: c2; } }
+  @media (min-width: 768px) {
+    #news ul #card3 {
+      grid-area: c3; } }
+  @media (min-width: 768px) {
+    #news ul #card4 {
+      grid-area: c4; } }
+  @media (min-width: 768px) {
+    #news ul #card5 {
+      grid-area: c5; } }
+  #news ul li img {
+    width: 100%; }
 
 section div #upper-cards .circle-card {
   display: grid;
