@@ -363,18 +363,29 @@ header {
 ============= */
 footer {
   background-color: #05404F; }
-  @media (min-width: 768px) {
-    footer div #locations {
-      float: left; } }
-  footer div #locations section section {
+  footer > div {
     display: grid;
-    grid-template-columns: 10% auto; }
-  @media (min-width: 768px) {
-    footer div #newsletter {
-      float: right; } }
-  @media (min-width: 768px) {
-    footer div #follow-us {
-      float: right; } }
+    gap: 16px; }
+    @media (min-width: 768px) {
+      footer > div {
+        grid-template-columns: 50% auto;
+        grid-template-areas: "locations newsletter" ". follow-us"; } }
+    @media (min-width: 1024px) {
+      footer > div {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "locations newsletter follow-us"; } }
+    @media (min-width: 768px) {
+      footer > div #locations {
+        grid-area: locations; } }
+    footer > div #locations section section {
+      display: grid;
+      grid-template-columns: 10% auto; }
+    @media (min-width: 768px) {
+      footer > div #newsletter {
+        grid-area: newsletter; } }
+    @media (min-width: 768px) {
+      footer > div #follow-us {
+        grid-area: follow-us; } }
 /* =============
     Heroes
 ============= */

@@ -4,10 +4,28 @@
 
 footer {
     background-color: #05404F;
-    div {
+    >div {
+
+        display: grid;
+        gap: 16px;
+
+        @include md {
+            grid-template-columns: 50% auto;
+
+            grid-template-areas: 
+            "locations newsletter"
+            ". follow-us";
+        }
+
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-areas: 
+            "locations newsletter follow-us";
+        }
+
         #locations {
             @include md{
-                float: left;
+                grid-area: locations;
             }
             section {
                 section {
@@ -18,12 +36,12 @@ footer {
         }
         #newsletter{
             @include md{
-                float: right;
+                grid-area: newsletter;
             }
         }
         #follow-us{
             @include md{
-                float: right;
+                grid-area: follow-us;
             }
         }
     }
