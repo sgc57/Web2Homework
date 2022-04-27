@@ -11,3 +11,11 @@
         grid-area: header;
     }
 }
+
+.show-for-xl{
+    display: none;
+
+    @include xl{
+        display: block;
+    }
+}

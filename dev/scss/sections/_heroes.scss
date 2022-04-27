@@ -43,3 +43,58 @@ section {
         }
     }
 }
+
+#hero2{
+
+    @include xxl{
+        display: grid;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". hero2 .";
+    }
+
+    ul{
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        @include lg{
+            grid-template-columns: 65% auto;
+        }
+
+        @include xl{
+            grid-template-columns: 60% auto;
+            grid-template-areas: 
+            "hero1 hero2"
+            "hero1 hero3";
+        }
+
+        @include xxl{
+            grid-area: hero2;
+        }
+
+        li{
+            img{
+                width: 100%;
+            }
+        }
+
+        #image1{
+            @include xl{
+                grid-area: hero1;
+            }
+        }
+
+        #image2{
+            @include xl{
+                grid-area: hero2;
+            }
+        }
+
+        #image3{
+            @include xl{
+                grid-area: hero3;
+            }
+        }
+    }
+}

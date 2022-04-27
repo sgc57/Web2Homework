@@ -322,6 +322,11 @@ template {
   .css-grid-global > div {
     grid-area: header; }
 
+.show-for-xl {
+  display: none; }
+  @media (min-width: 1200px) {
+    .show-for-xl {
+      display: block; } }
 /* =============
     Typography
 ============= */
@@ -395,6 +400,45 @@ footer {
   section section #hero-boxes {
     display: grid;
     grid-template-columns: 50% 50%; } }
+
+@media (min-width: 1440px) {
+  #hero2 {
+    display: grid;
+    grid-template-columns: auto 1440px auto;
+    grid-template-areas: ". hero2 ."; } }
+
+@media (min-width: 768px) {
+  #hero2 ul {
+    display: grid;
+    grid-template-columns: 50% auto; } }
+
+@media (min-width: 1024px) {
+  #hero2 ul {
+    grid-template-columns: 65% auto; } }
+
+@media (min-width: 1200px) {
+  #hero2 ul {
+    grid-template-columns: 60% auto;
+    grid-template-areas: "hero1 hero2" "hero1 hero3"; } }
+
+@media (min-width: 1440px) {
+  #hero2 ul {
+    grid-area: hero2; } }
+
+#hero2 ul li img {
+  width: 100%; }
+
+@media (min-width: 1200px) {
+  #hero2 ul #image1 {
+    grid-area: hero1; } }
+
+@media (min-width: 1200px) {
+  #hero2 ul #image2 {
+    grid-area: hero2; } }
+
+@media (min-width: 1200px) {
+  #hero2 ul #image3 {
+    grid-area: hero3; } }
 
 /* =============
     Heroes
