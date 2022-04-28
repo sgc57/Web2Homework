@@ -327,9 +327,27 @@ template {
   @media (min-width: 1200px) {
     .show-for-xl {
       display: block; } }
+.show-for-lg {
+  display: none; }
+  @media (min-width: 1024px) {
+    .show-for-lg {
+      display: block; } }
+.content-spacing {
+  margin: 16px 0 0 0; }
+  @media (min-width: 1024px) {
+    .content-spacing {
+      margin: 24px 0 0 0; } }
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
 /* =============
     Buttons
 ============= */

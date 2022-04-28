@@ -19,3 +19,19 @@
         display: block;
     }
 }
+
+.show-for-lg{
+    display: none;
+
+    @include lg{
+        display: block;
+    }
+}
+
+.content-spacing{
+    margin: 16px 0 0 0;
+
+    @include lg{
+        margin: 24px 0 0 0;
+    }
+}
