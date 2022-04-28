@@ -572,7 +572,7 @@
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
-      "sct" : 1
+      "sct" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
