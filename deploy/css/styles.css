@@ -511,7 +511,7 @@ section div #upper-cards .circle-card {
   gap: 24px; }
   @media (min-width: 768px) {
     #upper-cards {
-      grid-template-columns: 50% auto; } }
+      grid-template-columns: 49% auto; } }
   @media (min-width: 1440px) {
     #upper-cards {
       grid-template-columns: auto 720px 720px auto;
