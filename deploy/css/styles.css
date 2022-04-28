@@ -380,7 +380,8 @@ header {
     Footer
 ============= */
 footer {
-  background-color: #05404F; }
+  background-color: #05404F;
+  padding: 16px 0 16px 0; }
   footer > div {
     display: grid;
     gap: 16px; }
@@ -479,6 +480,9 @@ footer {
     list-style-type: none; }
     .cards ul li img {
       width: 100%; }
+
+.card-text {
+  padding: 8px 0px 16px 0px; }
 
 @media (min-width: 768px) {
   #news {
