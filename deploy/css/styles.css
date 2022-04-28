@@ -340,6 +340,9 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: 'M PLUS 1p', sans-serif; }
+
 h1, h2, h3, h4, h5 {
   padding: 0;
   margin: 0; }
@@ -393,15 +396,24 @@ footer {
       footer > div {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "locations newsletter follow-us"; } }
+    footer > div #locations h3 {
+      font-weight: 500;
+      font-size: 20; }
     @media (min-width: 768px) {
       footer > div #locations {
         grid-area: locations; } }
     footer > div #locations section section {
       display: grid;
       grid-template-columns: 10% auto; }
+    footer > div #newsletter h3 {
+      font-weight: 500;
+      font-size: 20; }
     @media (min-width: 768px) {
       footer > div #newsletter {
         grid-area: newsletter; } }
+    footer > div #follow-us h3 {
+      font-weight: 500;
+      font-size: 20; }
     @media (min-width: 768px) {
       footer > div #follow-us {
         grid-area: follow-us; } }

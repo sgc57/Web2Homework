@@ -25,6 +25,10 @@ footer {
         }
 
         #locations {
+            h3{
+                font-weight: 500;
+                font-size: rem-calc(20);
+            }
             @include md{
                 grid-area: locations;
             }
@@ -36,11 +40,19 @@ footer {
             }
         }
         #newsletter{
+            h3{
+                font-weight: 500;
+                font-size: rem-calc(20);
+            }
             @include md{
                 grid-area: newsletter;
             }
         }
         #follow-us{
+            h3{
+                font-weight: 500;
+                font-size: rem-calc(20);
+            }
             @include md{
                 grid-area: follow-us;
             }
