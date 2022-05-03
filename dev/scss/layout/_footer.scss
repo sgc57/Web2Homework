@@ -25,9 +25,31 @@ footer {
         }
 
         #locations {
+            
             h3{
                 font-weight: 500;
                 font-size: rem-calc(20);
+                color: white;
+                padding: 0 0 8px 0;
+            }
+            p{
+                color: white;
+                padding: 0 0 8px 0;
+                font-weight: 500;
+                font-size: rem-calc(16);
+            }
+            address{
+                color: white;
+                padding: 0 0 8px 0;
+                font-weight: 400;
+                font-size: rem-calc(12);
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: rem-calc(12);
+                padding: 0 0 16px 0;
             }
             @include md{
                 grid-area: locations;
@@ -43,6 +65,12 @@ footer {
             h3{
                 font-weight: 500;
                 font-size: rem-calc(20);
+                color: white;
+                padding: 0 0 8px 0;
+            }
+            button{
+                font-weight: 700;
+                font-size: rem-calc(14);
             }
             @include md{
                 grid-area: newsletter;
@@ -52,6 +80,8 @@ footer {
             h3{
                 font-weight: 500;
                 font-size: rem-calc(20);
+                color: white;
+                padding: 0 0 8px 0;
             }
             @include md{
                 grid-area: follow-us;

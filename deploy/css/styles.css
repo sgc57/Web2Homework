@@ -463,6 +463,27 @@ footer > div {
 footer > div #locations h3 {
   font-weight: 500;
   font-size: 1.25rem;
+  color: white;
+  padding: 0 0 8px 0;
+}
+footer > div #locations p {
+  color: white;
+  padding: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+footer > div #locations address {
+  color: white;
+  padding: 0 0 8px 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+footer > div #locations a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.75rem;
+  padding: 0 0 16px 0;
 }
 @media (min-width: 768px) {
   footer > div #locations {
@@ -476,6 +497,12 @@ footer > div #locations section section {
 footer > div #newsletter h3 {
   font-weight: 500;
   font-size: 1.25rem;
+  color: white;
+  padding: 0 0 8px 0;
+}
+footer > div #newsletter button {
+  font-weight: 700;
+  font-size: 0.875rem;
 }
 @media (min-width: 768px) {
   footer > div #newsletter {
@@ -485,6 +512,8 @@ footer > div #newsletter h3 {
 footer > div #follow-us h3 {
   font-weight: 500;
   font-size: 1.25rem;
+  color: white;
+  padding: 0 0 8px 0;
 }
 @media (min-width: 768px) {
   footer > div #follow-us {
@@ -599,6 +628,9 @@ section section #hero-boxes #right-box {
 
 .card-text {
   padding: 8px 0px 16px 0px;
+}
+.card-text p {
+  padding: 8px 0 8px 0;
 }
 
 @media (min-width: 768px) {
