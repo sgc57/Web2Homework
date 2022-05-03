@@ -35,10 +35,31 @@ section {
 
             #left-box{
                 background-color: #00AFDA;
+                h3{
+                    font-weight: 800;
+                font-size: rem-calc(18);
+
+                @include lg{
+                    font-weight: 800;
+                font-size: rem-calc(25);
+                }
+                }
+                p{
+                    font-weight: 500;
+                    font-size: rem-calc(16);
+                }
+                button{
+                    font-weight: 800;
+                font-size: rem-calc(18);
+                }
             }
 
             #right-box{
                 background-color: #E1F9FF;
+                p{
+                    font-weight: 400;
+                    font-size: rem-calc(16);
+                }
             }
 
             @include md {

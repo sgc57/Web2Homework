@@ -544,8 +544,30 @@ footer > div #follow-us h3 {
 section section #hero-boxes #left-box {
   background-color: #00AFDA;
 }
+section section #hero-boxes #left-box h3 {
+  font-weight: 800;
+  font-size: 1.125rem;
+}
+@media (min-width: 1024px) {
+  section section #hero-boxes #left-box h3 {
+    font-weight: 800;
+    font-size: 1.5625rem;
+  }
+}
+section section #hero-boxes #left-box p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+section section #hero-boxes #left-box button {
+  font-weight: 800;
+  font-size: 1.125rem;
+}
 section section #hero-boxes #right-box {
   background-color: #E1F9FF;
+}
+section section #hero-boxes #right-box p {
+  font-weight: 400;
+  font-size: 1rem;
 }
 @media (min-width: 768px) {
   section section #hero-boxes {
@@ -732,6 +754,20 @@ section div h1 {
   display: grid;
   grid-template-columns: 65% auto;
   padding: 16px 16px 16px 16px;
+}
+#hero-cards div #upper-cards .circle-card h2 {
+  font-weight: 400;
+  font-size: 1.375rem;
+}
+@media (min-width: 768px) {
+  #hero-cards div #upper-cards .circle-card h2 {
+    font-weight: 400;
+    font-size: 1.8125rem;
+  }
+}
+#hero-cards div #upper-cards .circle-card button {
+  font-weight: 700;
+  font-size: 0.875rem;
 }
 
 #upper-cards {
