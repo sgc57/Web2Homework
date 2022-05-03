@@ -512,6 +512,12 @@ footer > div #follow-us h3 {
   padding-left: 0%;
 }
 
+section section #hero-boxes #left-box {
+  background-color: #00AFDA;
+}
+section section #hero-boxes #right-box {
+  background-color: #E1F9FF;
+}
 @media (min-width: 768px) {
   section section #hero-boxes {
     display: grid;
@@ -523,6 +529,10 @@ footer > div #follow-us h3 {
     display: grid;
     grid-template-columns: 50% 50%;
   }
+}
+
+.upper-tab {
+  padding: 16px 0 16px 0;
 }
 
 @media (min-width: 1440px) {

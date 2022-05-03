@@ -31,6 +31,16 @@ section {
     section {
         #hero-boxes {
 
+            
+
+            #left-box{
+                background-color: #00AFDA;
+            }
+
+            #right-box{
+                background-color: #E1F9FF;
+            }
+
             @include md {
                 display: grid;
                 grid-template-columns: 40% auto;
@@ -44,6 +54,9 @@ section {
     }
 }
 
+.upper-tab{
+    padding: 16px 0 16px 0;
+}
 
 
 #hero2{
