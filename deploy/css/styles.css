@@ -569,6 +569,10 @@ section section #hero-boxes #right-box p {
   font-weight: 400;
   font-size: 1rem;
 }
+section section #hero-boxes #right-box button {
+  font-weight: 800;
+  font-size: 1.125rem;
+}
 @media (min-width: 768px) {
   section section #hero-boxes {
     display: grid;
