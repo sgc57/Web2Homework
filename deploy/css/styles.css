@@ -1,6 +1,14 @@
 /* =============
     Variables
 ============= */
+:root {
+  --ocean-blue: #00AFDA;
+  --sky-blue: #E1F9FF;
+  --navy: #05404F;
+  --steel-grey: #8B9294;
+  --light-grey: #E8ECED;
+}
+
 /* =============
     Mixins
 ============= */
@@ -433,7 +441,7 @@ textarea {
     Header
 ============= */
 header {
-  background-color: #05404F;
+  background-color: var(--navy);
   font-size: 1.25rem;
 }
 
@@ -441,7 +449,7 @@ header {
     Footer
 ============= */
 footer {
-  background-color: #05404F;
+  background-color: var(--navy);
   padding: 16px 0 16px 0;
 }
 footer > div {
@@ -526,6 +534,9 @@ footer > div #follow-us h3 {
 ============= */
 .heroes img {
   width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 0;
 }
 .heroes ul {
   padding-left: 0%;
@@ -542,7 +553,7 @@ footer > div #follow-us h3 {
 }
 
 section section #hero-boxes #left-box {
-  background-color: #00AFDA;
+  background-color: var(--ocean-blue);
 }
 section section #hero-boxes #left-box h3 {
   font-weight: 800;
@@ -559,11 +570,14 @@ section section #hero-boxes #left-box p {
   font-size: 1rem;
 }
 section section #hero-boxes #left-box button {
+  background-color: transparent;
+  border: none;
   font-weight: 800;
   font-size: 1.125rem;
+  margin-left: auto;
 }
 section section #hero-boxes #right-box {
-  background-color: #E1F9FF;
+  background-color: var(--sky-blue);
 }
 section section #hero-boxes #right-box p {
   font-weight: 400;
@@ -587,7 +601,9 @@ section section #hero-boxes #right-box button {
 }
 
 .upper-tab {
-  padding: 16px 0 16px 0;
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 1440px) {
@@ -800,5 +816,5 @@ section div h1 {
   }
 }
 #upper-cards .circle-card {
-  background-color: #E8ECED;
+  background-color: var(--light-grey);
 }

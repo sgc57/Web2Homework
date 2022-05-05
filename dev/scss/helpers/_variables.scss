@@ -2,6 +2,14 @@
     Variables
 ============= */
 
+:root{
+    --ocean-blue: #00AFDA;
+    --sky-blue: #E1F9FF;
+    --navy: #05404F;
+    --steel-grey: #8B9294;
+    --light-grey: #E8ECED;
+}
+
 // Define the breakpoints
 // Small tablets and large smartphones
 $screen-sm-min: 576px;

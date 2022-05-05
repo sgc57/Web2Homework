@@ -4,12 +4,15 @@
 .heroes {
     img {
         width: 100%;
+        margin: 0;
+        padding: 0;
+        font-weight: 0;
     }
 
     ul {
         padding-left: 0%;
 
-        @include md{
+        @include md {
             grid-template-columns: 50% auto;
             grid-template-rows: repeat(2);
         }
@@ -18,11 +21,11 @@
             list-style-type: none;
             padding-left: 0%;
 
-            
+
         }
     }
 
-    
+
 
 
 }
@@ -31,46 +34,55 @@ section {
     section {
         #hero-boxes {
 
-            
 
-            #left-box{
-                background-color: #00AFDA;
-                h3{
-                    font-weight: 800;
-                font-size: rem-calc(18);
 
-                @include lg{
+            #left-box {
+                background-color: var(--ocean-blue);
+
+                h3 {
                     font-weight: 800;
-                font-size: rem-calc(25);
+                    font-size: rem-calc(18);
+
+                    @include lg {
+                        font-weight: 800;
+                        font-size: rem-calc(25);
+                    }
                 }
-                }
-                p{
+
+                p {
                     font-weight: 500;
                     font-size: rem-calc(16);
                 }
-                button{
+
+                button {
+                    background-color: transparent;
+                    border: none;
                     font-weight: 800;
-                font-size: rem-calc(18);
+                    font-size: rem-calc(18);
+                    margin-left: auto;
                 }
             }
 
-            #right-box{
-                background-color: #E1F9FF;
-                p{
+            #right-box {
+                background-color: var(--sky-blue);
+
+                p {
                     font-weight: 400;
                     font-size: rem-calc(16);
                 }
-                button{
+
+                button {
                     font-weight: 800;
-                font-size: rem-calc(18);
+                    font-size: rem-calc(18);
                 }
-                
+
             }
 
             @include md {
                 display: grid;
                 grid-template-columns: 40% auto;
             }
+
             @include lg {
                 display: grid;
                 grid-template-columns: 50% 50%;
@@ -80,60 +92,62 @@ section {
     }
 }
 
-.upper-tab{
-    padding: 16px 0 16px 0;
+.upper-tab {
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    align-items: center;
 }
 
 
-#hero2{
+#hero2 {
 
-    @include xxl{
+    @include xxl {
         display: grid;
         grid-template-columns: auto 1440px auto;
         grid-template-areas: ". hero2 .";
     }
 
-    ul{
-        @include md{
+    ul {
+        @include md {
             display: grid;
             grid-template-columns: 50% auto;
         }
 
-        @include lg{
+        @include lg {
             grid-template-columns: 65% auto;
         }
 
-        @include xl{
+        @include xl {
             grid-template-columns: 60% auto;
-            grid-template-areas: 
-            "hero1 hero2"
-            "hero1 hero3";
+            grid-template-areas:
+                "hero1 hero2"
+                "hero1 hero3";
         }
 
-        @include xxl{
+        @include xxl {
             grid-area: hero2;
         }
 
-        li{
-            img{
+        li {
+            img {
                 width: 100%;
             }
         }
 
-        #image1{
-            @include xl{
+        #image1 {
+            @include xl {
                 grid-area: hero1;
             }
         }
 
-        #image2{
-            @include xl{
+        #image2 {
+            @include xl {
                 grid-area: hero2;
             }
         }
 
-        #image3{
-            @include xl{
+        #image3 {
+            @include xl {
                 grid-area: hero3;
             }
         }
