@@ -536,7 +536,6 @@ footer > div #follow-us h3 {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-weight: 0;
 }
 .heroes ul {
   padding-left: 0%;
@@ -575,6 +574,11 @@ section section #hero-boxes #left-box button {
   font-weight: 800;
   font-size: 1.125rem;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+section section #hero-boxes #left-box button img {
+  margin-left: 8px;
 }
 section section #hero-boxes #right-box {
   background-color: var(--sky-blue);
@@ -584,8 +588,16 @@ section section #hero-boxes #right-box p {
   font-size: 1rem;
 }
 section section #hero-boxes #right-box button {
+  background-color: transparent;
+  border: none;
   font-weight: 800;
   font-size: 1.125rem;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+section section #hero-boxes #right-box button img {
+  margin-left: 8px;
 }
 @media (min-width: 768px) {
   section section #hero-boxes {
