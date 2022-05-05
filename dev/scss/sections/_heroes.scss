@@ -1,11 +1,25 @@
 /* =============
     Heroes
 ============= */
+#hero{
+    width: 100vw;
+        height: 50vh;
+    background-image: url('../img/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+
+    @include lg{
+        height: 70vh;
+    }
+}
+
 .heroes {
     img {
         width: 100%;
         margin: 0;
         padding: 0;
+        border: 0;
+        display: block;
         
     }
 
@@ -62,7 +76,7 @@ section {
                     margin-left: auto;
                     display: flex;
                     align-items: center;
-                    
+
                     img{
                         margin-left: 8px;
                     }
