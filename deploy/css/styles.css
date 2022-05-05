@@ -529,6 +529,27 @@ footer > div #follow-us h3 {
   }
 }
 
+#search-form {
+  display: flex;
+}
+#search-form #search-bar {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid var(--light-grey);
+  color: var(--light-grey);
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+#search-form #search-button {
+  background-color: var(--ocean-blue);
+  border-radius: 3.5px;
+  margin: 0;
+  padding: 8px 16px 8px;
+  border: none;
+}
+
 /* =============
     Heroes
 ============= */
