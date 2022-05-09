@@ -475,11 +475,14 @@ footer > div {
     grid-template-areas: "locations newsletter follow-us";
   }
 }
+footer > div #locations {
+  padding-top: 24px;
+}
 footer > div #locations h3 {
   font-weight: 500;
   font-size: 1.25rem;
   color: white;
-  padding: 0 0 8px 0;
+  margin: 0 0 24px 0;
 }
 footer > div #locations p {
   color: white;
@@ -489,7 +492,6 @@ footer > div #locations p {
 }
 footer > div #locations address {
   color: white;
-  padding: 0 0 8px 0;
   font-weight: 400;
   font-size: 0.75rem;
 }
@@ -498,41 +500,70 @@ footer > div #locations a {
   text-decoration: none;
   font-weight: 400;
   font-size: 0.75rem;
-  padding: 0 0 16px 0;
 }
 @media (min-width: 768px) {
   footer > div #locations {
     grid-area: locations;
   }
 }
+footer > div #locations section {
+  margin-top: 24px;
+}
 footer > div #locations section section {
-  display: grid;
-  grid-template-columns: 10% auto;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+footer > div #locations section section img {
+  margin-right: 24px;
+}
+footer > div #newsletter {
+  padding-top: 24px;
 }
 footer > div #newsletter h3 {
   font-weight: 500;
   font-size: 1.25rem;
   color: white;
-  padding: 0 0 8px 0;
+  margin: 0 0 24px 0;
 }
-footer > div #newsletter button {
-  font-weight: 700;
-  font-size: 0.875rem;
+footer > div #newsletter input {
+  border: none;
+  background-color: var(--light-grey);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px 8px;
+  border-radius: 0;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
   footer > div #newsletter {
     grid-area: newsletter;
   }
 }
+footer > div #newsletter #newsletter-button {
+  text-align: right;
+}
+footer > div #follow-us {
+  padding-top: 24px;
+}
 footer > div #follow-us h3 {
   font-weight: 500;
   font-size: 1.25rem;
   color: white;
-  padding: 0 0 8px 0;
+  margin: 0 0 24px 0;
 }
 @media (min-width: 768px) {
   footer > div #follow-us {
     grid-area: follow-us;
+    margin-top: -220px;
+    padding: 0;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div #follow-us {
+    margin: 0;
+    text-align: right;
+    padding-top: 24px;
   }
 }
 
@@ -548,6 +579,11 @@ footer > div #follow-us h3 {
   border-radius: 0;
   font-weight: 400;
   font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #search-form #search-bar {
+    font-size: 1.875rem;
+  }
 }
 #search-form #search-button {
   background-color: var(--ocean-blue);

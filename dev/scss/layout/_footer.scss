@@ -25,12 +25,12 @@ footer {
         }
 
         #locations {
-            
+            padding-top: 24px;
             h3{
                 font-weight: 500;
                 font-size: rem-calc(20);
                 color: white;
-                padding: 0 0 8px 0;
+                margin: 0 0 24px 0;
             }
             p{
                 color: white;
@@ -40,7 +40,6 @@ footer {
             }
             address{
                 color: white;
-                padding: 0 0 8px 0;
                 font-weight: 400;
                 font-size: rem-calc(12);
             }
@@ -49,42 +48,63 @@ footer {
                 text-decoration: none;
                 font-weight: 400;
                 font-size: rem-calc(12);
-                padding: 0 0 16px 0;
             }
             @include md{
                 grid-area: locations;
             }
             section {
+                margin-top: 24px;
                 section {
-                    display: grid;
-                    grid-template-columns: 10% auto;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 16px;
+                    img{
+                        margin-right: 24px;
+                    }
                 }
             }
         }
         #newsletter{
+            padding-top: 24px;
             h3{
                 font-weight: 500;
                 font-size: rem-calc(20);
                 color: white;
-                padding: 0 0 8px 0;
+                margin: 0 0 24px 0;
             }
-            button{
-                font-weight: 700;
-                font-size: rem-calc(14);
+            input{
+                border: none;
+                background-color: var(--light-grey);
+                width: 100%;
+                box-sizing: border-box;
+                padding: 16px 8px;
+                border-radius: 0;
+                margin-bottom: 24px;
             }
             @include md{
                 grid-area: newsletter;
             }
+            #newsletter-button{
+                text-align: right;
+            }
         }
         #follow-us{
+            padding-top: 24px;
             h3{
                 font-weight: 500;
                 font-size: rem-calc(20);
                 color: white;
-                padding: 0 0 8px 0;
+                margin: 0 0 24px 0;
             }
             @include md{
                 grid-area: follow-us;
+                margin-top: -220px;
+                padding: 0;
+            }
+            @include lg{
+                margin: 0;
+                text-align: right;
+                padding-top: 24px;
             }
         }
     }
