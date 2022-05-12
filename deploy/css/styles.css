@@ -365,7 +365,7 @@ template {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .css-grid-global {
     grid-template-columns: auto 1440px auto;
   }
@@ -864,25 +864,50 @@ section div h1 {
     grid-template-areas: "c1 c1 c2 c2 c3 c3" ". c4 c4 c5 c5 .";
   }
 }
+#news ul li aside {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1200px) {
+  #news ul li aside {
+    height: 300px;
+  }
+}
+#news ul #card1 aside {
+  background-image: url("../img/card1.jpg");
+}
 @media (min-width: 768px) {
   #news ul #card1 {
     grid-area: c1;
   }
+}
+#news ul #card2 aside {
+  background-image: url("../img/card2.jpg");
 }
 @media (min-width: 768px) {
   #news ul #card2 {
     grid-area: c2;
   }
 }
+#news ul #card3 aside {
+  background-image: url("../img/card3.jpg");
+}
 @media (min-width: 768px) {
   #news ul #card3 {
     grid-area: c3;
   }
 }
+#news ul #card4 aside {
+  background-image: url("../img/card4.jpg");
+}
 @media (min-width: 768px) {
   #news ul #card4 {
     grid-area: c4;
   }
+}
+#news ul #card5 aside {
+  background-image: url("../img/card5.jpg");
 }
 @media (min-width: 768px) {
   #news ul #card5 {

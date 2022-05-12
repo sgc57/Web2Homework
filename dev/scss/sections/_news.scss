@@ -93,31 +93,59 @@ section{
             ". c4 c4 c5 c5 .";
         }
 
+        li{
+          
+                aside {
+                   height: 200px;
+                   background-size: cover;
+                   background-position: center;
+
+                   @include xl{
+                       height: 300px;
+                   }
+                }
+        }
+
         #card1{
+            aside{
+            background-image: url("../img/card1.jpg");
+            }
             @include md{
                 grid-area: c1;
             }
         }
 
         #card2{
+            aside{
+            background-image: url("../img/card2.jpg");
+            }
             @include md{
                 grid-area: c2;
             }
         }
 
         #card3{
+            aside{
+            background-image: url("../img/card3.jpg");
+            }
             @include md{
                 grid-area: c3;
             }
         }
 
         #card4{
+            aside{
+            background-image: url("../img/card4.jpg");
+            }
             @include md{
                 grid-area: c4;
             }
         }
 
         #card5{
+            aside{
+            background-image: url("../img/card5.jpg");
+            }
             @include md{
                 grid-area: c5;
             }
