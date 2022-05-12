@@ -135,9 +135,13 @@
     }
 
     ul {
+        display: grid;
+        grid-template-rows: 50vh 75vh;
+
         @include md {
             display: grid;
             grid-template-columns: 50% auto;
+            grid-template-rows: 55vh auto;
         }
 
         @include lg {
@@ -156,24 +160,32 @@
         }
 
         li {
-            img {
-                width: 100%;
-            }
+            background-size: cover;
         }
 
         #image1 {
+            background-image: url("../img/hero3.jpg");
+
+            @include md{
+                background-position: center;
+            }
+
             @include xl {
                 grid-area: hero1;
             }
         }
 
         #image2 {
+
+            background-image: url("../img/hero2.jpg");            
             @include xl {
                 grid-area: hero2;
             }
         }
 
         #image3 {
+
+            background-image: url("../img/hero4.jpg");
             @include xl {
                 grid-area: hero3;
             }

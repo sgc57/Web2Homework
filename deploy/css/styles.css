@@ -719,10 +719,15 @@ footer > div #follow-us h3 {
     grid-template-areas: ". hero2 .";
   }
 }
+#hero2 ul {
+  display: grid;
+  grid-template-rows: 50vh 75vh;
+}
 @media (min-width: 768px) {
   #hero2 ul {
     display: grid;
     grid-template-columns: 50% auto;
+    grid-template-rows: 55vh auto;
   }
 }
 @media (min-width: 1024px) {
@@ -741,18 +746,32 @@ footer > div #follow-us h3 {
     grid-area: hero2;
   }
 }
-#hero2 ul li img {
-  width: 100%;
+#hero2 ul li {
+  background-size: cover;
+}
+#hero2 ul #image1 {
+  background-image: url("../img/hero3.jpg");
+}
+@media (min-width: 768px) {
+  #hero2 ul #image1 {
+    background-position: center;
+  }
 }
 @media (min-width: 1200px) {
   #hero2 ul #image1 {
     grid-area: hero1;
   }
 }
+#hero2 ul #image2 {
+  background-image: url("../img/hero2.jpg");
+}
 @media (min-width: 1200px) {
   #hero2 ul #image2 {
     grid-area: hero2;
   }
+}
+#hero2 ul #image3 {
+  background-image: url("../img/hero4.jpg");
 }
 @media (min-width: 1200px) {
   #hero2 ul #image3 {
