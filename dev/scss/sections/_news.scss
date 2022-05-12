@@ -15,10 +15,18 @@
 }
 
 .card-text{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". text .";
     padding: 8px 0px 16px 0px;
     p{
         padding: 8px 0 8px 0;
     }
+    >div{
+        grid-area: text;
+    }
+
+
 }
 
 section{

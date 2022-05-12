@@ -365,6 +365,11 @@ template {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
 }
+@media (min-width: 1200px) {
+  .css-grid-global {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 .css-grid-global > div {
   grid-area: header;
 }
@@ -462,6 +467,12 @@ img {
 footer {
   background-color: var(--navy);
   padding: 16px 0 16px 0;
+  display: grid;
+}
+@media (min-width: 1200px) {
+  footer {
+    grid-template-columns: auto 1440px auto;
+  }
 }
 footer > div {
   display: grid;
@@ -634,24 +645,24 @@ footer > div #follow-us h3 {
   padding-left: 0%;
 }
 
-section section #hero-boxes #left-box {
+#hero-boxes #left-box {
   background-color: var(--ocean-blue);
 }
-section section #hero-boxes #left-box h3 {
+#hero-boxes #left-box h3 {
   font-weight: 800;
   font-size: 1.125rem;
 }
 @media (min-width: 1024px) {
-  section section #hero-boxes #left-box h3 {
+  #hero-boxes #left-box h3 {
     font-weight: 800;
     font-size: 1.5625rem;
   }
 }
-section section #hero-boxes #left-box p {
+#hero-boxes #left-box p {
   font-weight: 500;
   font-size: 1rem;
 }
-section section #hero-boxes #left-box button {
+#hero-boxes #left-box button {
   background-color: transparent;
   border: none;
   font-weight: 800;
@@ -660,17 +671,17 @@ section section #hero-boxes #left-box button {
   display: flex;
   align-items: center;
 }
-section section #hero-boxes #left-box button img {
+#hero-boxes #left-box button img {
   margin-left: 8px;
 }
-section section #hero-boxes #right-box {
+#hero-boxes #right-box {
   background-color: var(--sky-blue);
 }
-section section #hero-boxes #right-box p {
+#hero-boxes #right-box p {
   font-weight: 400;
   font-size: 1rem;
 }
-section section #hero-boxes #right-box button {
+#hero-boxes #right-box button {
   background-color: transparent;
   border: none;
   font-weight: 800;
@@ -679,17 +690,17 @@ section section #hero-boxes #right-box button {
   display: flex;
   align-items: center;
 }
-section section #hero-boxes #right-box button img {
+#hero-boxes #right-box button img {
   margin-left: 8px;
 }
 @media (min-width: 768px) {
-  section section #hero-boxes {
+  #hero-boxes {
     display: grid;
     grid-template-columns: 40% auto;
   }
 }
 @media (min-width: 1024px) {
-  section section #hero-boxes {
+  #hero-boxes {
     display: grid;
     grid-template-columns: 50% 50%;
   }
@@ -764,10 +775,16 @@ section section #hero-boxes #right-box button img {
 }
 
 .card-text {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". text .";
   padding: 8px 0px 16px 0px;
 }
 .card-text p {
   padding: 8px 0 8px 0;
+}
+.card-text > div {
+  grid-area: text;
 }
 
 section div h1 {

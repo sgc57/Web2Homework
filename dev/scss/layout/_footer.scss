@@ -5,9 +5,16 @@
 footer {
     background-color: var(--navy);
     padding: 16px 0 16px 0;
+    display: grid;
+      
+    @include xl {
+        grid-template-columns: auto 1440px auto;
+    }
+  
     >div {
 
         display: grid;
+        
         gap: 16px;
 
         @include md {
