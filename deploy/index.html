@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--fonts-->
+    <script src="https://kit.fontawesome.com/7ab68a398d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -16,12 +17,32 @@
 <body>
 <header class="css-grid-global">
    <div>
-   <section>
+   <section id="logo">
     <img src="img/logo.svg" alt="logo">
    </section>
-   <nav></nav>
+   <aside id="burger-area">
+      <button id="burger-button">
+          <i class="fa-solid fa-bars"></i>
+      </button>
+  </aside>
+   <nav id="nav-menu">
+       <aside class="hide-for-lg">
+          <button id="close-button">
+             <i class="fa-solid fa-xmark-large"></i>
+          </button>
+       </aside>
+       <section>
+          <ul>
+             <li><a href="#cards-1">Visit Information</a></li>
+             <li><a href="#hero-2">Gallery</a></li>
+             <li><a href="#news">What's New</a></li>
+          </ul>
+       </section>
+    </nav> 
    </div>
 </header>  
+
+
 
 <section class="css-grid-global content-spacing">
     <div>

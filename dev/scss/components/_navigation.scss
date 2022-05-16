@@ -1,3 +1,99 @@
 /* =============
     Navigation
 ============= */
+
+a:link, a:visited{
+    text-decoration: none;
+    transition: 0.25;
+}
+
+nav{
+    display: none;
+	background-color: var(--navy);
+	height: 100vh;
+	padding: 16px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100vw;
+    box-sizing: border-box;
+
+	@include lg {
+		background-color: var(--navy);
+		display: block;
+		height: 100%;
+		padding: 0;
+		position: relative;
+		width: 100%;
+	}
+    
+
+    aside{
+        display: flex;
+        justify-content: flex-end;
+
+        @include lg{
+            display: none;
+        }
+
+        button{
+            background-color: transparent;
+            border: none;
+            color: var(--sky-blue);
+        }
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+
+        @include lg{
+            display: block;
+            margin-top: 0;
+            height: 100%;
+        }
+
+        ul{
+
+            @include lg{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                height: 100%;
+            }
+        
+            li{
+
+                @include lg{
+                    margin-left: 16px;
+                }
+
+
+    
+                a:link, a:visited{
+                    text-decoration: none;
+                    transition: 0.25s;
+                    color: var(--sky-blue);
+                    padding: 16px;
+                    display: inline-block;
+                    font-size: rem-calc(30);
+                   
+    
+    
+                    &:hover, &:active{
+                        color: var(--ocean-blue)
+                    }
+
+                    @include lg{
+                        font-size: rem-calc(22);
+                        padding: 0;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+
+   
+}

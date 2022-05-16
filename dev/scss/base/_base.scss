@@ -17,6 +17,14 @@
     }
 }
 
+ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
 .show-for-xl{
     display: none;
 

@@ -1,12 +1,41 @@
 /* =============
     Header
 ============= */
-header{
-   background-color: var(--navy);
+header {
+    background-color: var(--navy);
     font-size: rem-calc(20);
 
-}
+    >div {
 
-img{
-    padding: 16px 0px;
+        display: grid;
+        grid-template-columns: 50% auto;
+
+
+        #logo {
+
+            display: flex;
+
+            img {
+                padding: 16px 0px;
+            }
+        }
+
+        #burger-area {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            @include lg {
+                display: none;
+            }
+
+            button {
+                border: none;
+                background-color: transparent;
+                color: white;
+                padding: 16px;
+            }
+
+        }
+    }
 }
