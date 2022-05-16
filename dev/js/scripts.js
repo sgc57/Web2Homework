@@ -1,5 +1,5 @@
-let burgerBtn = document.querySelector("#burger-button");
-let mainMenu = document.querySelector("#nav-menu");
+let burgerBtn = document.querySelector("#burger-btn");
+let mainMenu = document.querySelector("#main-menu");
 
 let canSeeMenu = false;
 
@@ -15,10 +15,11 @@ burgerBtn.addEventListener("click", () => {
 })
 
 
-let closeBtn = document.querySelector("#close-button");
+let closeBtn = document.querySelector("#close-btn");
 
 closeBtn.addEventListener("click", () => {
         mainMenu.classList.remove("show-menu");
         canSeeMenu = false;
 })
+
 

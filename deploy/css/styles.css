@@ -551,6 +551,10 @@ nav section ul li a:link:hover, nav section ul li a:link:active, nav section ul 
 header {
   background-color: var(--navy);
   font-size: 1.25rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 header > div {
   display: grid;
@@ -694,10 +698,19 @@ footer > div #follow-us h3 {
   }
 }
 
-#search-form {
+#search {
+  margin-top: 130px;
+  padding-top: 16px;
+}
+@media (min-width: 1024px) {
+  #search {
+    padding-top: 24px;
+  }
+}
+#search #search-form {
   display: flex;
 }
-#search-form #search-bar {
+#search #search-form #search-bar {
   width: 100%;
   box-sizing: border-box;
   border: none;
@@ -708,11 +721,11 @@ footer > div #follow-us h3 {
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  #search-form #search-bar {
+  #search #search-form #search-bar {
     font-size: 1.875rem;
   }
 }
-#search-form #search-button {
+#search #search-form #search-button {
   background-color: var(--ocean-blue);
   border-radius: 3.5px;
   margin: 0;
