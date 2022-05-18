@@ -21,6 +21,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/flora.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/flora.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/about-us-1.jpg" : {
       "ft" : 16384,
       "iS" : 219729,
@@ -252,6 +260,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/flora.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/flora.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
