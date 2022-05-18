@@ -355,13 +355,17 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
-button {
-  border: none;
-}
-
 /* =============
     Forms
 ============= */
@@ -386,11 +390,6 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  color: red;
-  font-size: 0.75rem;
-}
-
 /* =============
     Footer
 ============= */
