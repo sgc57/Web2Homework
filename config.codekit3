@@ -21,87 +21,48 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/adopt.png" : {
-      "ft" : 32768,
-      "iS" : 21139,
+    "\/deploy\/img\/about-us-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 219729,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/adopt.png",
+      "oAP" : "\/deploy\/img\/about-us-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/arrow.svg" : {
+    "\/deploy\/img\/about-us-2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 768939,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about-us-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/arrow-right.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/arrow.svg",
+      "oAP" : "\/deploy\/img\/arrow-right.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/card1.jpg" : {
+    "\/deploy\/img\/cafe.jpg" : {
       "ft" : 16384,
-      "iS" : 56637,
+      "iS" : 200088,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/card1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/card2.jpg" : {
-      "ft" : 16384,
-      "iS" : 84990,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/card2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/card3.jpg" : {
-      "ft" : 16384,
-      "iS" : 67767,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/card3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/card4.jpg" : {
-      "ft" : 16384,
-      "iS" : 82713,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/card4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/card5.jpg" : {
-      "ft" : 16384,
-      "iS" : 58908,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/card5.jpg",
+      "oAP" : "\/deploy\/img\/cafe.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -119,12 +80,12 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/hero1.jpg" : {
+    "\/deploy\/img\/flora-hero.jpg" : {
       "ft" : 16384,
-      "iS" : 920548,
+      "iS" : 570579,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero1.jpg",
+      "oAP" : "\/deploy\/img\/flora-hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -132,12 +93,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero2.jpg" : {
+    "\/deploy\/img\/flora-shop.jpg" : {
       "ft" : 16384,
-      "iS" : 311885,
+      "iS" : 189543,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero2.jpg",
+      "oAP" : "\/deploy\/img\/flora-shop.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -145,25 +106,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero3.jpg" : {
+    "\/deploy\/img\/homepage-hero.jpg" : {
       "ft" : 16384,
-      "iS" : 208072,
+      "iS" : 646243,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero4.jpg" : {
-      "ft" : 16384,
-      "iS" : 80545,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero4.jpg",
+      "oAP" : "\/deploy\/img\/homepage-hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -181,61 +129,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/location-arrow.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/location-arrow.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/Logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/Logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/mobile-phone.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/mobile-phone.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/search.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/search.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/twitter.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/twitter.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/vet.png" : {
+    "\/deploy\/img\/logo.png" : {
       "ft" : 32768,
-      "iS" : 16753,
+      "iS" : 5974,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/vet.png",
+      "oAP" : "\/deploy\/img\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -244,11 +142,70 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/youtube.svg" : {
+    "\/deploy\/img\/mail.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/youtube.svg",
+      "oAP" : "\/deploy\/img\/mail.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/our-story.jpg" : {
+      "ft" : 16384,
+      "iS" : 937098,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/phone.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/phone.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/plants.jpg" : {
+      "ft" : 16384,
+      "iS" : 300017,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/plants.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/shop.jpg" : {
+      "ft" : 16384,
+      "iS" : 605339,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/shop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/twitter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -273,51 +230,11 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/cards-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/cards-1.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hero-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-1.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hero-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/news.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/news.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/search.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/search.html",
-      "oF" : 0
-    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
@@ -333,16 +250,8 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/nav.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/nav.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
@@ -517,66 +426,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_circlecards.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_circlecards.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_heroes.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_heroes.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_news.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_news.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/_search.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_search.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
