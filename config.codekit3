@@ -270,6 +270,38 @@
       "oAP" : "\/dev\/flora.html",
       "oF" : 0
     },
+    "\/dev\/flora\/cards.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/flora\/cards.html",
+      "oF" : 0
+    },
+    "\/dev\/flora\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/flora\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/flora\/search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/flora\/search.html",
+      "oF" : 0
+    },
+    "\/dev\/flora\/shop.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/flora\/shop.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
