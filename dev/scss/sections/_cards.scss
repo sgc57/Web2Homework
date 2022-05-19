@@ -1,14 +1,29 @@
-#homepage-cards{
+#homepage-cards {
     background-color: var(--blush-pink);
 
+    
 }
 
-.cards{
-    ul{
-        padding: 0;
-        margin: 0;
-        li{
-            list-style: none;
+.cards {
+
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style: none;
+        background-color: white;
+        margin: 40px 0 40px 0;
+        padding: 16px 0 16px 0;
+
+        .card-img{
+            width: 100%;
         }
+
     }
+
 }
+
+#flora-cards{
+    background-color: var(--blush-pink);
+}
+

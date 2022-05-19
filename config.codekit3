@@ -267,8 +267,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/flora.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/flora.html",
+      "oF" : 2
     },
     "\/dev\/flora\/cards.kit" : {
       "cB" : 0,
@@ -498,6 +498,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/_about-us.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about-us.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
