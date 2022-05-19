@@ -15,6 +15,7 @@ html {
   --beige: #E7E1DF;
   --blush-pink: #E9D3Da;
   --forest-green: #254D46;
+  --dark-beige: #D1C9C7;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -359,6 +360,20 @@ template {
 /* =============
     Base
 ============= */
+.css-grid-global {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". global-grid .";
+}
+@media (min-width: 1440px) {
+  .css-grid-global {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+.css-grid-global > div {
+  grid-area: global-grid;
+}
+
 .show-for-md {
   display: none;
 }
@@ -430,6 +445,26 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: var(--dark-beige);
+  width: 100%;
+}
+
 /* =============
     Footer
 ============= */
+.hero-img {
+  width: 100%;
+}
+
+#homepage-cards {
+  background-color: var(--blush-pink);
+}
+
+.cards ul {
+  padding: 0;
+  margin: 0;
+}
+.cards ul li {
+  list-style: none;
+}

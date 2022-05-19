@@ -2,6 +2,20 @@
     Base
 ============= */
 
+.css-grid-global{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". global-grid .";
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div{
+        grid-area: global-grid;
+    }
+}
+
 
 .show-for-md{
     display: none;
