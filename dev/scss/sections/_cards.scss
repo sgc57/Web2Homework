@@ -8,8 +8,10 @@
 
     padding: 0;
     margin: 0;
+    
 
     li {
+        
         list-style: none;
         background-color: white;
         margin: 40px 0 40px 0;
@@ -17,6 +19,21 @@
 
         .card-img{
             width: 100%;
+            height: 320px;
+            object-fit: cover;
+            padding-bottom: 16px;
+        }
+
+        h1{
+            text-align: center;
+            padding-bottom: 16px;
+        }
+
+        .card-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 16px;
         }
 
     }
