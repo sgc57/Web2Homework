@@ -506,30 +506,27 @@ footer > div #rights {
 }
 
 #homepage-cards {
-  background-color: var(--blush-pink);
-}
-
-.cards {
   padding: 0;
   margin: 0;
+  background-color: var(--blush-pink);
 }
-.cards li {
+#homepage-cards li {
   list-style: none;
   background-color: white;
   margin: 40px 0 40px 0;
   padding: 16px 0 16px 0;
 }
-.cards li .card-img {
+#homepage-cards li .home-card-img {
   width: 100%;
   height: 320px;
   object-fit: cover;
   padding-bottom: 16px;
 }
-.cards li h1 {
+#homepage-cards li h1 {
   text-align: center;
   padding-bottom: 16px;
 }
-.cards li .card-button {
+#homepage-cards li .home-card-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -537,7 +534,31 @@ footer > div #rights {
 }
 
 #flora-cards {
+  padding: 0;
+  margin: 0;
   background-color: var(--blush-pink);
+}
+#flora-cards li {
+  list-style: none;
+  background-color: white;
+  margin: 40px 0 40px 0;
+  padding: 16px 0 16px 0;
+}
+#flora-cards li .flora-card-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  padding-bottom: 16px;
+}
+#flora-cards li h1 {
+  text-align: center;
+  padding-bottom: 16px;
+}
+#flora-cards li .flora-card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
 }
 
 #about-us {
