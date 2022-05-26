@@ -1,10 +1,22 @@
 
-
+#homepage-card-container{
+    background-color: var(--blush-pink);
+}
 #homepage-cards {
 
     padding: 0;
     margin: 0;
     background-color: var(--blush-pink);
+
+    @include md{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "hc1, hc2"
+        "hc3, hc4"
+        ;
+    }
+
 
     li {
         
@@ -12,6 +24,10 @@
         background-color: white;
         margin: 40px 0 40px 0;
         padding: 16px 0 16px 0;
+
+        @include md{
+            margin: 16px 8px;
+        }
 
         .home-card-img{
             width: 100%;
@@ -33,6 +49,8 @@
         }
 
     }
+
+   
 
 }
 
