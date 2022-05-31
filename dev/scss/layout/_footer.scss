@@ -6,7 +6,7 @@ footer {
     >div{
 
    
-    
+        gap: 16px;
     padding: 24px 0 24px 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,7 +15,7 @@ footer {
     "f2 f3"
     "f4 f5";
 
-    @include md{
+    @include lg{
         grid-template-areas: 
         "f1 f6 f2"
         "f4 f5 f3";
@@ -33,17 +33,25 @@ footer {
             grid-area: f6;
             display: flex;
             align-items: center;
+            
+            @include lg{
+                margin-left: -270px;
+            }
 
         }
 
 
     #socials{
         grid-area: f2;
-
+        text-align: left;
+        @include lg{
+            text-align: right;
+        }
     }
 
     #priv-policy{
 grid-area: f3;
+text-align: right;
     }
 
     #llc{
@@ -52,6 +60,11 @@ grid-area: f4;
 
     #rights{
 grid-area: f5;
+text-align: right;
+@include lg{
+    margin-left: -270px;
+    text-align: left;
+}
     }
 }
 }

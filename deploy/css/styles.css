@@ -464,12 +464,13 @@ footer {
   background-color: var(--dark-beige);
 }
 footer > div {
+  gap: 16px;
   padding: 24px 0 24px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "f1 f6" "f2 f3" "f4 f5";
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   footer > div {
     grid-template-areas: "f1 f6 f2" "f4 f5 f3";
   }
@@ -484,17 +485,36 @@ footer > div #mail {
   display: flex;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  footer > div #mail {
+    margin-left: -270px;
+  }
+}
 footer > div #socials {
   grid-area: f2;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  footer > div #socials {
+    text-align: right;
+  }
 }
 footer > div #priv-policy {
   grid-area: f3;
+  text-align: right;
 }
 footer > div #llc {
   grid-area: f4;
 }
 footer > div #rights {
   grid-area: f5;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  footer > div #rights {
+    margin-left: -270px;
+    text-align: left;
+  }
 }
 
 .hero-img {
@@ -503,6 +523,20 @@ footer > div #rights {
 
 #hero-text {
   padding: 24px 0 24px 0;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  color: var(--bark-brown);
+}
+@media (min-width: 768px) {
+  #hero-text {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-text {
+    padding: 24px 200px;
+  }
 }
 
 #homepage-card-container {

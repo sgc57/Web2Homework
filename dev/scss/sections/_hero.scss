@@ -4,4 +4,14 @@
 
 #hero-text{
     padding: 24px 0 24px 0;
+    font-weight: 600;
+    font-size: rem-calc(18);
+    line-height: rem-calc(24);
+    color: var(--bark-brown);
+    @include md{
+        text-align: center;
+    }
+    @include lg{
+        padding: 24px 200px;
+    }
 }
