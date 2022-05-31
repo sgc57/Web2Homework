@@ -539,8 +539,17 @@ footer > div #rights {
   padding-bottom: 16px;
 }
 #homepage-cards li h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
+  color: var(--bark-brown);
+}
+#homepage-cards li p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--bark-brown);
 }
 #homepage-cards li .home-card-button {
   display: flex;
@@ -567,8 +576,17 @@ footer > div #rights {
   padding-bottom: 16px;
 }
 #flora-cards li h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
+  color: var(--bark-brown);
+}
+#flora-cards li p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--bark-brown);
 }
 #flora-cards li .flora-card-button {
   display: flex;
@@ -580,21 +598,35 @@ footer > div #rights {
 #about-us {
   padding: 24px 0 24px 0;
 }
+@media (min-width: 1024px) {
+  #about-us {
+    grid-template-columns: 120px auto 120px;
+    grid-template-areas: ". aboutus .";
+  }
+}
+@media (min-width: 1024px) {
+  #about-us #about-us-inside {
+    grid-area: aboutus;
+  }
+}
 #about-us h1 {
   font-weight: 700;
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 16px;
+  color: var(--bark-brown);
 }
 #about-us p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
+  color: var(--bark-brown);
 }
 #about-us li {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
+  color: var(--bark-brown);
 }
 #about-us aside img {
   width: 100%;
@@ -606,6 +638,11 @@ footer > div #rights {
     height: 280px;
   }
 }
+@media (min-width: 1024px) {
+  #about-us aside img {
+    height: 350px;
+  }
+}
 #about-us #about-us-grid {
   gap: 16px;
   display: grid;
@@ -614,7 +651,8 @@ footer > div #rights {
 }
 @media (min-width: 768px) {
   #about-us #about-us-grid {
-    grid-template-areas: "a1 a2" "a3 a2" "a4 a7" "a4 a7";
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "a1 a1 a1 a2 a2" "a3 a3 a3 a2 a2" "a4 a4 a7 a7 a7" "a4 a4 a7 a7 a7";
   }
 }
 #about-us #about-us-grid #au1 {
@@ -637,5 +675,6 @@ footer > div #rights {
   grid-area: a6;
 }
 #about-us #about-us-grid #au7 {
+  padding-top: 24px;
   grid-area: a7;
 }

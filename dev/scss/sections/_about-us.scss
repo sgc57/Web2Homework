@@ -1,21 +1,35 @@
 #about-us{
 padding: 24px 0 24px 0;
 
+@include lg{
+    grid-template-columns: 120px auto 120px;
+    grid-template-areas: ". aboutus .";
+}
+
+#about-us-inside{
+    @include lg{
+        grid-area: aboutus;
+    }
+}
+
 h1{
     font-weight: 700;
     font-size: rem-calc(40);
     text-align: center;
     margin-bottom: 16px;
+    color: var(--bark-brown);
 }
 p{
     font-weight: 400;
     font-size: rem-calc(16);
     line-height: rem-calc(24);
+    color: var(--bark-brown);
 }
 li{
     font-weight: 400;
     font-size: rem-calc(16);
     line-height: rem-calc(24); 
+    color: var(--bark-brown);
 }
 
     aside{
@@ -25,6 +39,9 @@ li{
             object-fit: cover;
             @include md{
                 height: 280px;
+            }
+            @include lg{
+                height: 350px;
             }
         }
     }
@@ -40,13 +57,16 @@ li{
         ;
 
         @include md{
+            grid-template-columns: repeat(5, 1fr);
             grid-template-areas: 
-                "a1 a2"
-                "a3 a2"
-                "a4 a7"
-                "a4 a7"
+                "a1 a1 a1 a2 a2"
+                "a3 a3 a3 a2 a2"
+                "a4 a4 a7 a7 a7"
+                "a4 a4 a7 a7 a7"
             ;
         }
+
+        
 
         #au1{
             grid-area: a1;
@@ -68,8 +88,10 @@ li{
             grid-area: a6;
         }
         #au7{
+            padding-top: 24px;
             grid-area: a7;
         }
 
     }
+
 }

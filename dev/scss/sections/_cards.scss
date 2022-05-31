@@ -37,8 +37,17 @@
         }
 
         h1{
+            font-size: rem-calc(40);
+            font-weight: 400;
             text-align: center;
             padding-bottom: 16px;
+            color: var(--bark-brown);
+        }
+        p{
+            font-weight: 400;
+    font-size: rem-calc(16);
+    line-height: rem-calc(24);
+            color: var(--bark-brown);
         }
 
         .home-card-button{
@@ -74,8 +83,17 @@
         }
 
         h1{
+            font-size: rem-calc(40);
+            font-weight: 400;
             text-align: center;
             padding-bottom: 16px;
+            color: var(--bark-brown);
+        }
+        p{
+            font-weight: 400;
+    font-size: rem-calc(16);
+    line-height: rem-calc(24);
+            color: var(--bark-brown);
         }
 
         .flora-card-button{
