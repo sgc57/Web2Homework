@@ -1,9 +1,49 @@
 #about-us{
 padding: 24px 0 24px 0;
 
+h1{
+    font-weight: 700;
+    font-size: rem-calc(40);
+    text-align: center;
+    margin-bottom: 16px;
+}
     aside{
         img{
-            width: 50%;
+            width: 100%;
         }
+    }
+    #about-us-grid{
+        gap: 16px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+            "a1 a2"
+            "a3 a3"
+            "a4 a5"
+            "a6 a6"
+        ;
+
+        #au1{
+            grid-area: a1;
+        }
+        #au2{
+            grid-area: a2;
+        }
+        #au3{
+            grid-area: a3;
+        }
+        #au4{
+            grid-area: a4;
+        }
+        #au5{
+            grid-area: a5;
+        }
+        #au6{
+            grid-area: a6;
+        }
+        #au7{
+            
+        }
+
     }
 }

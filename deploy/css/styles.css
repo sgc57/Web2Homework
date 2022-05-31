@@ -580,6 +580,36 @@ footer > div #rights {
 #about-us {
   padding: 24px 0 24px 0;
 }
+#about-us h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 16px;
+}
 #about-us aside img {
-  width: 50%;
+  width: 100%;
+}
+#about-us #about-us-grid {
+  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "a1 a2" "a3 a3" "a4 a5" "a6 a6";
+}
+#about-us #about-us-grid #au1 {
+  grid-area: a1;
+}
+#about-us #about-us-grid #au2 {
+  grid-area: a2;
+}
+#about-us #about-us-grid #au3 {
+  grid-area: a3;
+}
+#about-us #about-us-grid #au4 {
+  grid-area: a4;
+}
+#about-us #about-us-grid #au5 {
+  grid-area: a5;
+}
+#about-us #about-us-grid #au6 {
+  grid-area: a6;
 }
