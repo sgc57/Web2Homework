@@ -487,7 +487,7 @@ footer > div #mail {
 }
 @media (min-width: 1024px) {
   footer > div #mail {
-    margin-left: -270px;
+    margin-left: -60%;
   }
 }
 footer > div #socials {
@@ -512,7 +512,7 @@ footer > div #rights {
 }
 @media (min-width: 1024px) {
   footer > div #rights {
-    margin-left: -270px;
+    margin-left: -60%;
     text-align: left;
   }
 }
@@ -554,6 +554,18 @@ footer > div #rights {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "hc1, hc2" "hc3, hc4";
   }
+}
+#homepage-cards #hc1 {
+  grid-area: hc1;
+}
+#homepage-cards #hc2 {
+  grid-area: hc2;
+}
+#homepage-cards #hc3 {
+  grid-area: hc3;
+}
+#homepage-cards #hc4 {
+  grid-area: hc4;
 }
 #homepage-cards li {
   list-style: none;

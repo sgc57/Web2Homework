@@ -1,56 +1,68 @@
-
-#homepage-card-container{
+#homepage-card-container {
     background-color: var(--blush-pink);
 }
+
 #homepage-cards {
 
     padding: 0;
     margin: 0;
     background-color: var(--blush-pink);
 
-    @include md{
+    @include md {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        "hc1, hc2"
-        "hc3, hc4"
+        grid-template-areas:
+            "hc1, hc2"
+            "hc3, hc4"
         ;
     }
-
+    #hc1{
+        grid-area: hc1;
+    }
+    #hc2{
+        grid-area: hc2;
+    }
+    #hc3{
+        grid-area: hc3;
+    }
+    #hc4{
+        grid-area: hc4;
+    }
 
     li {
-        
+
         list-style: none;
         background-color: white;
         margin: 40px 0 40px 0;
         padding: 16px 0 16px 0;
 
-        @include md{
+        @include md {
             margin: 16px 8px;
         }
 
-        .home-card-img{
+        .home-card-img {
             width: 100%;
             height: 320px;
             object-fit: cover;
             padding-bottom: 16px;
         }
 
-        h1{
+        h1 {
             font-size: rem-calc(40);
             font-weight: 400;
             text-align: center;
             padding-bottom: 16px;
             color: var(--bark-brown);
         }
-        p{
+
+        p {
             font-weight: 400;
-    font-size: rem-calc(16);
-    line-height: rem-calc(24);
+            font-size: rem-calc(16);
+            line-height: rem-calc(24);
             color: var(--bark-brown);
         }
 
-        .home-card-button{
+        .home-card-button {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -59,44 +71,45 @@
 
     }
 
-   
+
 
 }
 
-#flora-cards{
+#flora-cards {
     padding: 0;
     margin: 0;
     background-color: var(--blush-pink);
 
     li {
-        
+
         list-style: none;
         background-color: white;
         margin: 40px 0 40px 0;
         padding: 16px 0 16px 0;
 
-        .flora-card-img{
+        .flora-card-img {
             width: 100%;
             height: 320px;
             object-fit: cover;
             padding-bottom: 16px;
         }
 
-        h1{
+        h1 {
             font-size: rem-calc(40);
             font-weight: 400;
             text-align: center;
             padding-bottom: 16px;
             color: var(--bark-brown);
         }
-        p{
+
+        p {
             font-weight: 400;
-    font-size: rem-calc(16);
-    line-height: rem-calc(24);
+            font-size: rem-calc(16);
+            line-height: rem-calc(24);
             color: var(--bark-brown);
         }
 
-        .flora-card-button{
+        .flora-card-button {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -105,6 +118,3 @@
 
     }
 }
-
-
-
