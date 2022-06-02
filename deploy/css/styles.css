@@ -567,6 +567,9 @@ footer > div #rights {
 #homepage-cards #hc4 {
   grid-area: hc4;
 }
+#homepage-cards a {
+  display: block;
+}
 #homepage-cards li {
   list-style: none;
   background-color: white;
@@ -599,9 +602,13 @@ footer > div #rights {
 }
 #homepage-cards li .home-card-button {
   display: flex;
+  padding-top: 16px;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
+}
+#homepage-cards li .home-card-button a {
+  height: 40px;
+  width: 40px;
 }
 
 #flora-cards {
@@ -636,9 +643,13 @@ footer > div #rights {
 }
 #flora-cards li .flora-card-button {
   display: flex;
+  padding-top: 16px;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
+}
+#flora-cards li .flora-card-button a {
+  height: 40px;
+  width: 40px;
 }
 
 #about-us {
