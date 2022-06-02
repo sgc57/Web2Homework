@@ -475,6 +475,10 @@ footer > div {
     grid-template-areas: "f1 f6 f2" "f4 f5 f3";
   }
 }
+footer > div a:link, footer > div a:visited {
+  text-decoration: none;
+  color: var(--bark-brown);
+}
 footer > div #phone {
   grid-area: f1;
   display: flex;
@@ -484,9 +488,11 @@ footer > div #mail {
   grid-area: f6;
   display: flex;
   align-items: center;
+  justify-content: end;
 }
 @media (min-width: 1024px) {
   footer > div #mail {
+    justify-content: initial;
     margin-left: -60%;
   }
 }
@@ -537,6 +543,15 @@ footer > div #rights {
   #hero-text {
     padding: 24px 200px;
   }
+}
+
+.card-grid-global {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". global-grid .";
+}
+.card-grid-global > div {
+  grid-area: global-grid;
 }
 
 #homepage-card-container {

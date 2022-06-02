@@ -21,7 +21,11 @@ footer {
         "f4 f5 f3";
     }
 
-        
+        a:link, a:visited{
+            text-decoration: none;
+            color: var(--bark-brown);
+            
+        }
       
         #phone {
             grid-area: f1;
@@ -33,8 +37,10 @@ footer {
             grid-area: f6;
             display: flex;
             align-items: center;
+            justify-content: end;
             
             @include lg{
+                justify-content: initial;
                 margin-left: -60%;
             }
 
