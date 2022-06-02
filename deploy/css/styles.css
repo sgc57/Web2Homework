@@ -456,6 +456,10 @@ header {
   background-color: var(--dark-beige);
   width: 100%;
 }
+header img {
+  padding: 16px;
+  width: 170px;
+}
 
 /* =============
     Footer
