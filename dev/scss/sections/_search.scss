@@ -1,13 +1,25 @@
+#search{
+    @include md{
+display: grid;
+grid-template-columns: 30% auto;
+grid-template-areas: "text bar";
+    }
+
 #search-text{
     font-weight: 600;
         font-size: rem-calc(16);
         line-height: rem-calc(24);
         color: var(--bark-brown);
         margin: 16px 0;
+        grid-area: text;
 }
 
 #search-bar{
     margin-bottom: 16px;
+    grid-area: bar;
+@include md{
+    margin: 24px 0;
+}
 
     form{
         display: flex;
@@ -28,4 +40,5 @@
     }
 
     
+}
 }

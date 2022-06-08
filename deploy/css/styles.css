@@ -927,21 +927,34 @@ footer > div #rights {
   grid-area: a7;
 }
 
-#search-text {
+@media (min-width: 768px) {
+  #search {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-areas: "text bar";
+  }
+}
+#search #search-text {
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--bark-brown);
   margin: 16px 0;
+  grid-area: text;
 }
-
-#search-bar {
+#search #search-bar {
   margin-bottom: 16px;
+  grid-area: bar;
 }
-#search-bar form {
+@media (min-width: 768px) {
+  #search #search-bar {
+    margin: 24px 0;
+  }
+}
+#search #search-bar form {
   display: flex;
 }
-#search-bar form button {
+#search #search-bar form button {
   background-color: var(--forest-green);
   color: white;
   border: 0;
@@ -949,7 +962,7 @@ footer > div #rights {
   padding: 8px;
   margin-left: 16px;
 }
-#search-bar form input {
+#search #search-bar form input {
   border-color: var(--bark-brown);
   border-radius: 8px;
   padding: 6px;
