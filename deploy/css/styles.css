@@ -650,7 +650,7 @@ footer > div #rights {
   width: 100%;
 }
 
-#hero-text {
+.hero-text {
   padding: 24px 0 24px 0;
   font-weight: 600;
   font-size: 1.125rem;
@@ -658,14 +658,21 @@ footer > div #rights {
   color: var(--bark-brown);
 }
 @media (min-width: 768px) {
-  #hero-text {
+  .hero-text {
     text-align: center;
   }
 }
 @media (min-width: 1024px) {
-  #hero-text {
+  .hero-text {
     padding: 24px 200px;
   }
+}
+
+.hero-heading {
+  color: var(--bark-brown);
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 32px;
 }
 
 .card-grid-global {
