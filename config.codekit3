@@ -137,6 +137,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/iPhone 13\/Placeholder.png" : {
+      "ft" : 32768,
+      "iS" : 239060,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/iPhone 13\/Placeholder.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo.png" : {
       "ft" : 32768,
       "iS" : 5974,
@@ -185,26 +198,13 @@
     },
     "\/deploy\/img\/plants.jpg" : {
       "ft" : 16384,
-      "iS" : 66052,
+      "iS" : 300017,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/plants.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/plants.png" : {
-      "ft" : 32768,
-      "iS" : 239060,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/plants.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
