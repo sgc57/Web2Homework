@@ -688,9 +688,18 @@ footer > div #rights {
 }
 @media (min-width: 768px) {
   #homepage-cards {
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: grid;
+    gap: 16px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "hc1, hc2" "hc3, hc4";
+    grid-template-areas: "hc1 hc2" "hc3 hc4";
+  }
+}
+@media (min-width: 1024px) {
+  #homepage-cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "hc1 hc1 hc2" "hc1 hc1 hc2" "hc3 . hc2" "hc3 hc4 hc4" "hc3 hc4 hc4";
   }
 }
 #homepage-cards #hc1 {
@@ -716,7 +725,7 @@ footer > div #rights {
 }
 @media (min-width: 768px) {
   #homepage-cards li {
-    margin: 16px 8px;
+    margin: 0;
   }
 }
 #homepage-cards li .home-card-img {
@@ -747,6 +756,19 @@ footer > div #rights {
 #homepage-cards li .home-card-button a {
   height: 40px;
   width: 40px;
+}
+#homepage-cards li .card-interior {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#homepage-cards li .card-interior .right-side-card {
+  padding-left: 16px;
+}
+@media (min-width: 1024px) {
+  #homepage-cards li .card-interior .right-side-card .right-side-button {
+    padding-top: 55%;
+    justify-content: end;
+  }
 }
 
 #flora-cards {

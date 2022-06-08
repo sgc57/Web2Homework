@@ -1,10 +1,9 @@
-
-.card-grid-global{
+.card-grid-global {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". global-grid .";
 
-    >div{
+    >div {
         grid-area: global-grid;
     }
 }
@@ -24,11 +23,25 @@
     background-color: var(--blush-pink);
 
     @include md {
+        margin-top: 40px;
+        margin-bottom: 40px;
         display: grid;
+        gap: 16px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
-            "hc1, hc2"
-            "hc3, hc4"
+            "hc1 hc2"
+            "hc3 hc4"
+        ;
+    }
+
+    @include lg {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "hc1 hc1 hc2"
+            "hc1 hc1 hc2"
+            "hc3 . hc2"
+            "hc3 hc4 hc4"
+            "hc3 hc4 hc4"
         ;
     }
 
@@ -60,7 +73,7 @@
         padding: 16px 0 16px 0;
 
         @include md {
-            margin: 16px 8px;
+            margin: 0;
         }
 
         .home-card-img {
@@ -91,11 +104,32 @@
             justify-content: center;
             align-items: center;
 
+
             a {
                 height: 40px;
                 width: 40px;
             }
 
+        }
+
+        .card-interior {
+            display: grid;
+            grid-template-columns: 50% auto;
+
+            .left-side-card {
+
+            }
+
+            .right-side-card {
+                padding-left: 16px;
+
+                .right-side-button {
+                    @include lg {
+                        padding-top: 55%;
+                        justify-content: end;
+                    }
+                }
+            }
         }
 
     }
