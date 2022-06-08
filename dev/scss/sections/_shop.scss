@@ -1,20 +1,29 @@
 #flora-shop{
     background-color: var(--blush-pink);
-    padding: 16px 0;
-#flora-shop-content{
+    @include md{
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "shop-txt shop-img";
+    }
 
+#flora-shop-content{
+    padding: 16px 0;
+    grid-area: shop-txt;
+display: flex;
+align-items: center;
 
     p {
         font-weight: 400;
         font-size: rem-calc(16);
         line-height: rem-calc(24);
         color: var(--bark-brown);
-        margin-bottom: 16px;
+        padding-bottom: 16px;
     }
 
     #flora-shop-link{
         display: inline;
         vertical-align: middle;
+
         
         a{
             vertical-align: middle;
@@ -22,6 +31,7 @@
         font-size: rem-calc(16);
         line-height: rem-calc(24);
         color: var(--forest-green); 
+        
         }
 
         img{
@@ -30,4 +40,17 @@
         }
     }
 }
+
+#flora-shop-img{
+
+    grid-area: shop-img;
+    aside{
+        img{
+            height: 340px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
 }
