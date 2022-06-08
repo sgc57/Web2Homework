@@ -4,7 +4,6 @@
 
 a:link, a:visited{
     text-decoration: none;
-    transition: 0.25;
 }
 
 nav{
@@ -54,7 +53,8 @@ nav{
         }
 
         ul{
-
+            margin-right: 16px;
+list-style: none;
             @include lg{
                 display: flex;
                 justify-content: flex-end;
@@ -72,7 +72,6 @@ nav{
     
                 a:link, a:visited{
                     text-decoration: none;
-                    transition: 0.25s;
                     color: var(--bark-brown);
                     padding: 16px;
                     display: inline-block;

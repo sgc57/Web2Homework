@@ -413,6 +413,10 @@ template {
   }
 }
 
+.show-menu {
+  display: block !important;
+}
+
 /* =============
     Typography
 ============= */
@@ -457,7 +461,6 @@ textarea {
 ============= */
 a:link, a:visited {
   text-decoration: none;
-  transition: 0.25;
 }
 
 nav {
@@ -507,6 +510,10 @@ nav section {
     height: 100%;
   }
 }
+nav section ul {
+  margin-right: 16px;
+  list-style: none;
+}
 @media (min-width: 1024px) {
   nav section ul {
     display: flex;
@@ -522,7 +529,6 @@ nav section {
 }
 nav section ul li a:link, nav section ul li a:visited {
   text-decoration: none;
-  transition: 0.25s;
   color: var(--bark-brown);
   padding: 16px;
   display: inline-block;
@@ -559,6 +565,7 @@ header > div #burger-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-right: 16px;
 }
 @media (min-width: 1024px) {
   header > div #burger-container {
