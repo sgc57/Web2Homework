@@ -407,6 +407,12 @@ template {
   }
 }
 
+@media (min-width: 1024px) {
+  .hide-for-lg {
+    display: none;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -536,10 +542,34 @@ nav section ul li a:link, nav section ul li a:visited {
 header {
   background-color: var(--dark-beige);
   width: 100%;
+  position: fixed;
 }
-header img {
+header > div {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+header > div #logo {
+  display: flex;
+}
+header > div #logo img {
   padding: 16px;
   width: 170px;
+}
+header > div #burger-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  header > div #burger-container {
+    display: none;
+  }
+}
+header > div #burger-container button {
+  border: none;
+  background-color: transparent;
+  color: var(--bark-brown);
+  padding: 16px;
 }
 
 /* =============
@@ -609,6 +639,7 @@ footer > div #rights {
 }
 
 .hero-img {
+  margin-top: 100px;
   width: 100%;
 }
 

@@ -2,13 +2,43 @@
     Header
 ============= */
 
-header{
+header {
     background-color: var(--dark-beige);
     width: 100%;
+    position: fixed;
 
-    img{
-        padding: 16px;
-        width: 170px;
+>div{
+
+    display: grid;
+    grid-template-columns: 50% auto;
+
+    #logo {
+        display: flex;
+        img {
+            padding: 16px;
+            width: 170px;
+        }
     }
 
+
+    #burger-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        @include lg {
+            display: none;
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            color: var(--bark-brown);
+            padding: 16px;
+        }
+
+    }
+
+
+}
 }

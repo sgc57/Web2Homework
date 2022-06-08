@@ -46,3 +46,9 @@
         display: none;
     }
 }
+
+.hide-for-lg{
+    @include lg {
+        display: none;
+    }
+}
