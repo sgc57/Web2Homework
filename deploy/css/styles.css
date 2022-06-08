@@ -565,7 +565,6 @@ header > div #burger-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 16px;
 }
 @media (min-width: 1024px) {
   header > div #burger-container {
@@ -782,64 +781,64 @@ footer > div #rights {
   }
 }
 
-#flora-cards {
+#flora-cards, #flora-cards-list {
   padding: 0;
   margin: 0;
   background-color: var(--blush-pink);
 }
-#flora-cards li {
+#flora-cards li, #flora-cards-list li {
   list-style: none;
   background-color: white;
   margin: 40px 0 40px 0;
   padding: 16px 0 16px 0;
 }
-#flora-cards li .flora-card-img {
+#flora-cards li .flora-card-img, #flora-cards-list li .flora-card-img {
   width: 100%;
   height: 320px;
   object-fit: cover;
   padding-bottom: 16px;
 }
-#flora-cards li h1 {
+#flora-cards li h1, #flora-cards-list li h1 {
   font-size: 2.5rem;
   font-weight: 400;
   text-align: center;
   padding-bottom: 16px;
   color: var(--bark-brown);
 }
-#flora-cards li p {
+#flora-cards li p, #flora-cards-list li p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--bark-brown);
 }
 @media (min-width: 768px) {
-  #flora-cards li p {
+  #flora-cards li p, #flora-cards-list li p {
     height: 200px;
   }
 }
-#flora-cards li .flora-card-button {
+#flora-cards li .flora-card-button, #flora-cards-list li .flora-card-button {
   display: flex;
   padding-top: 16px;
   justify-content: center;
   align-items: center;
 }
 @media (min-width: 768px) {
-  #flora-cards li .flora-card-button {
+  #flora-cards li .flora-card-button, #flora-cards-list li .flora-card-button {
     padding-top: 100px;
     justify-content: end;
   }
 }
-#flora-cards li .flora-card-button a {
+#flora-cards li .flora-card-button a, #flora-cards-list li .flora-card-button a {
   height: 40px;
   width: 40px;
 }
 @media (min-width: 768px) {
-  #flora-cards li .flora-card-content {
+  #flora-cards li .flora-card-content, #flora-cards-list li .flora-card-content {
     display: grid;
     grid-template-columns: 50% auto;
   }
 }
-#flora-cards li .flora-card-content .flora-card-right {
+#flora-cards li .flora-card-content .flora-card-right, #flora-cards-list li .flora-card-content .flora-card-right {
   padding-left: 16px;
 }
 
