@@ -672,7 +672,7 @@ footer > div #rights {
   color: var(--bark-brown);
   text-align: center;
   font-size: 2.5rem;
-  padding-top: 32px;
+  padding-top: 16px;
 }
 
 .card-grid-global {
@@ -764,12 +764,16 @@ footer > div #rights {
   height: 40px;
   width: 40px;
 }
-#homepage-cards li .card-interior {
-  display: grid;
-  grid-template-columns: 50% auto;
+@media (min-width: 1024px) {
+  #homepage-cards li .card-interior {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
 }
-#homepage-cards li .card-interior .right-side-card {
-  padding-left: 16px;
+@media (min-width: 1024px) {
+  #homepage-cards li .card-interior .right-side-card {
+    padding-left: 16px;
+  }
 }
 @media (min-width: 1024px) {
   #homepage-cards li .card-interior .right-side-card .right-side-button {
@@ -808,15 +812,35 @@ footer > div #rights {
   line-height: 1.5rem;
   color: var(--bark-brown);
 }
+@media (min-width: 768px) {
+  #flora-cards li p {
+    height: 200px;
+  }
+}
 #flora-cards li .flora-card-button {
   display: flex;
   padding-top: 16px;
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 768px) {
+  #flora-cards li .flora-card-button {
+    padding-top: 100px;
+    justify-content: end;
+  }
+}
 #flora-cards li .flora-card-button a {
   height: 40px;
   width: 40px;
+}
+@media (min-width: 768px) {
+  #flora-cards li .flora-card-content {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#flora-cards li .flora-card-content .flora-card-right {
+  padding-left: 16px;
 }
 
 #about-us {
@@ -903,11 +927,38 @@ footer > div #rights {
   grid-area: a7;
 }
 
+#search-text {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--bark-brown);
+  margin: 16px 0;
+}
+
+#search-bar {
+  margin-bottom: 16px;
+}
+#search-bar form {
+  display: flex;
+}
+#search-bar form button {
+  background-color: var(--forest-green);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 16px;
+}
+#search-bar form input {
+  border-color: var(--bark-brown);
+  border-radius: 8px;
+  padding: 6px;
+  width: 100%;
+}
+
 #flora-shop {
   background-color: var(--blush-pink);
-}
-#flora-shop #flora-shop-content {
-  margin: 16px 0;
+  padding: 16px 0;
 }
 #flora-shop #flora-shop-content p {
   font-weight: 400;

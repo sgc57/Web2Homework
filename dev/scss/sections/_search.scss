@@ -1,0 +1,31 @@
+#search-text{
+    font-weight: 600;
+        font-size: rem-calc(16);
+        line-height: rem-calc(24);
+        color: var(--bark-brown);
+        margin: 16px 0;
+}
+
+#search-bar{
+    margin-bottom: 16px;
+
+    form{
+        display: flex;
+        button{
+            background-color: var(--forest-green);
+            color: white;
+            border: 0;
+            border-radius: 8px;
+            padding: 8px;
+            margin-left: 16px;
+        }
+        input{
+            border-color: var(--bark-brown);
+            border-radius: 8px;
+            padding: 6px;
+            width: 100%;
+        }
+    }
+
+    
+}
