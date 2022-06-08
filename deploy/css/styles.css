@@ -902,3 +902,32 @@ footer > div #rights {
   padding-top: 24px;
   grid-area: a7;
 }
+
+#flora-shop {
+  background-color: var(--blush-pink);
+}
+#flora-shop #flora-shop-content {
+  margin: 16px 0;
+}
+#flora-shop #flora-shop-content p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--bark-brown);
+  margin-bottom: 16px;
+}
+#flora-shop #flora-shop-content #flora-shop-link {
+  display: inline;
+  vertical-align: middle;
+}
+#flora-shop #flora-shop-content #flora-shop-link a {
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--forest-green);
+}
+#flora-shop #flora-shop-content #flora-shop-link img {
+  vertical-align: middle;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(5%) saturate(4174%) hue-rotate(120deg) brightness(99%) contrast(82%);
+}

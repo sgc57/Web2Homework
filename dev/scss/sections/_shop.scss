@@ -1,0 +1,32 @@
+#flora-shop{
+    background-color: var(--blush-pink);
+#flora-shop-content{
+margin: 16px 0;
+
+    p {
+        font-weight: 400;
+        font-size: rem-calc(16);
+        line-height: rem-calc(24);
+        color: var(--bark-brown);
+        margin-bottom: 16px;
+    }
+
+    #flora-shop-link{
+        display: inline;
+        vertical-align: middle;
+        
+        a{
+            vertical-align: middle;
+        font-weight: 600;
+        font-size: rem-calc(16);
+        line-height: rem-calc(24);
+        color: var(--forest-green); 
+        }
+
+        img{
+            vertical-align: middle;
+            filter: brightness(0) saturate(100%) invert(22%) sepia(5%) saturate(4174%) hue-rotate(120deg) brightness(99%) contrast(82%);
+        }
+    }
+}
+}
